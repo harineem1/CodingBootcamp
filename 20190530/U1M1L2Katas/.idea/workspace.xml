@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="255c5278-7bc0-4236-8796-ffdafb35544b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../01-lesson/activities/katas/starter-code/datatypes/src/main/java/Operators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-lesson/activities/katas/starter-code/datatypes/src/main/java/com/trilogyed/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-lesson/activities/katas/starter-code/helloandadd/src/main/java/HelloAndAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AddFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AddFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AddFiveAndDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AddFiveAndDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AddThirteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AddThirteen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AverageThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AverageThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/DoubleAndAddFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/DoubleAndAddFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MultiplyThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MultiplyThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/SubtractTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/SubtractTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/AddFiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/AddFiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/AllKatasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/AllKatasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/MultiplyThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/MultiplyThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/SubtractTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/SubtractTwoTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AllKatasTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="240" column="29" selection-start-line="240" selection-start-column="29" selection-end-line="240" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/company/AverageThree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/AddFiveAndDouble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/AddThirteen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/DoubleAndAddFive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/MultiplyThree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/SubtractTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/AddFive.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/AddFiveTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/MultiplyThreeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/SubtractTwoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/AllKatasTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/U1M1L2Katas.iml" />
+        <option value="$PROJECT_DIR$/../../../activities.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1908" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="testfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="testfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="MultipleInputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1L2Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M1L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="testfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleInputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AllKatasTest">
+    <configuration name="AllKatasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M1L2Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AllKatasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplyThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M1L2Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.MultiplyThreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplyThreeTest.testMultiplyThreeOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M1L2Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.MultiplyThreeTest" />
+      <option name="METHOD_NAME" value="testMultiplyThreeOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubtractTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M1L2Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.SubtractTwoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubtractTwoTest.testSubtractTwoOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M1L2Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.SubtractTwoTest" />
+      <option name="METHOD_NAME" value="testSubtractTwoOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AllKatasTest" />
+        <item itemvalue="JUnit.SubtractTwoTest.testSubtractTwoOutput" />
+        <item itemvalue="JUnit.MultiplyThreeTest.testMultiplyThreeOutput" />
+        <item itemvalue="JUnit.SubtractTwoTest" />
+        <item itemvalue="JUnit.MultiplyThreeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="255c5278-7bc0-4236-8796-ffdafb35544b" name="Default Changelist" comment="" />
+      <created>1559152631121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559152631121</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AverageThreeTest - 2019.05.29 at 20h 52m 12s.xml">
+      <configuration name="AverageThreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoubleAndAddFiveTest - 2019.05.29 at 20h 52m 18s.xml">
+      <configuration name="DoubleAndAddFiveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplyThreeTest - 2019.05.29 at 20h 52m 23s.xml">
+      <configuration name="MultiplyThreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubtractTwoTest - 2019.05.29 at 20h 52m 34s.xml">
+      <configuration name="SubtractTwoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplyThreeTest_testMultiplyThreeOutput - 2019.05.29 at 20h 55m 12s.xml">
+      <configuration name="MultiplyThreeTest.testMultiplyThreeOutput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubtractTwoTest_testSubtractTwoOutput - 2019.05.29 at 20h 56m 38s.xml">
+      <configuration name="SubtractTwoTest.testSubtractTwoOutput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllKatasTest - 2019.05.29 at 20h 56m 52s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllKatasTest - 2019.05.29 at 20h 59m 59s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllKatasTest - 2019.05.29 at 21h 03m 58s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllKatasTest - 2019.05.29 at 21h 06m 42s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="20" width="1272" height="640" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25412542" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32874015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3996063" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32874015" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AverageThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MultiplyThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SubtractTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddThirteen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/DoubleAndAddFive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddFiveAndDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AddFiveAndDoubleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AddThirteenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfiles/SingleInputs/input2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfiles/SingleInputs/input1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfiles/SingleInputs/input0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfiles/MultipleInputs/input0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfiles/MultipleInputs/input1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfiles/MultipleInputs/input2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/SubtractTwoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/MultiplyThreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AddFiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddFive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AllKatasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="240" column="29" selection-start-line="240" selection-start-column="29" selection-end-line="240" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
