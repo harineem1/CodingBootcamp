@@ -1,0 +1,101 @@
+import java.util.Scanner;
+
+public class practice30th {
+    public static void main(String[] args) {
+        Scanner myScanner = new Scanner((System.in));
+
+        System.out.println(" Enter Department");
+        String dep = myScanner.nextLine();
+
+        switch(dep) {
+            case "C":
+            case "c":
+            System.out.println("Customer care");
+                break;
+            case "S":
+            case "s":
+                 System.out.println("Sales");
+                 break;
+            default:
+                 System.out.println("invalid");
+             break;
+
+        }
+        }
+        }
+
+---------------------------------------------------------------------
+
+Scanner myScanner = new Scanner(System.in);
+        System.out.println(("Enter a number between 1 to 7 "));
+        String InputDay = myScanner.nextLine();
+        
+        int day = Integer.parseInt(InputDay);
+        
+        if (day == 1) {
+            System.out.println("Monday");
+        } else if (day == 2) {
+            System.out.println("Tuesday");
+          else if   
+
+-------------------------------------
+while loop
+
+Scanner myScanner = new Scanner(System.in);
+        System.out.println("would you like to input a word to display? y/n");
+        String userinput = myScanner.nextLine();
+
+        while(userinput.equals("y")) {
+            System.out.println(("Type in a word to display in the screen;"));
+            String  word = myScanner.nextLine();
+            System.out.println();
+            System.out.println(("would you like to type another word?y/n"));
+            userinput = myScanner.nextLine();
+-------------------------------------------------------------
+do /while loops
+
+Scanner myScanner = new Scanner(System.in);
+         String userInput;
+        int userInt;
+
+        do {
+            System.out.println(" Enter a number between 1 and 10");
+            userInput = myScanner.nextLine();
+            userInt = Integer.parseInt(userInput);
+        } while(userInt< 1 || userInt > 10);
+
+----------------------------------------------------------------------
+
+Scanner myScanner = new Scanner(System.in);
+        System.out.println(" What number would you like to count to?");
+        String userInput = myScanner.nextLine();
+        int userNum = Integer.parseInt(userInput);
+
+        for (int i=1; i<= userNum; i++) {
+            System.out.println(i);
+        }
+------------------------------------------------------------------------
+i += 2
+----------------------------------------------------------------------------
+public static void main(String[] args) {
+      Random random = new Random();
+      
+      for (int i=0; i<10; i++){
+     int rollValue = random.nextInt(6) + 1;
+        System.out.println(rollValue);
+--------------------------------------------------
+
+P = L[c(1 + c)n]/[(1 + c)n - 1]
+
+---------------------------------
+System.out.println("Welcome to Hi-Low!");
+        System.out.println("please Enter your Name");
+        System.out.println("Ok. Here are the Rules");
+
+
+
+
+
+    }
+}
+
