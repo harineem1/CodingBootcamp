@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class MonthConverterSwitch {
+
+    public static void main(String[] args) {
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("Enter a number between 1 and 12");
+
+        int m = Integer.parseInt(myScanner.nextLine());
+        String monthString;
+        switch (m){
+            case 1:
+               monthString = "January";
+                break;
+            case 2:
+                monthString = "Feruary";
+                break;
+            case 3:
+                monthString = "March";
+                break;
+            case 4:
+                monthString = "April";
+                break;
+            case 5:
+                monthString = "May";
+                break;
+            case 6:
+                monthString = "June";
+                break;
+            case 7:
+                monthString = "July";
+                break;
+            case 8:
+                monthString = "August";
+                break;
+            case 9:
+                monthString = "September";
+                break;
+            case 10:
+                monthString = "October";
+                break;case 11:
+                monthString = "November";
+                break;
+            case 12:
+                monthString = "December";
+                break;
+            default:
+                monthString =  "You have entered an invalid number. You must enter a " +
+                        "number between 1 and 12. Goodbye.";
+        }
+        System.out.println(monthString);
+    }
+}
