@@ -24,6 +24,9 @@ public class ArrayFunReverseIt {
           for (int i = 0; i < 5; i++) {
               System.out.print(anArray[4-i] + ",");
           }
+          for (int i = 4; i => 0; i--) {
+              System.out.print(anArray[i] + ",");
+          }
         }
     }
 
