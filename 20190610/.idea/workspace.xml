@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f0af07a-d446-461d-965e-6a4a548c0008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/20190610.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeAssessmentHarineeMadhusudhan/src/main/java/ArrayFunReverseIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/U1M1SummativeAssessmentHarineeMadhusudhan/src/main/java/ArrayFunReverseIt.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f0af07a-d446-461d-965e-6a4a548c0008" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/U1M1SummativeAssessmentHarineeMadhusudhan/src/main/java/MonthConverterSwitch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -48,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/U1M1SummativeAssessmentHarineeMadhusudhan/src/main/java/SomeMath.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -66,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/U1M1SummativeAssessmentHarineeMadhusudhan/src/main/java/ArrayFunReverseIt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -280,14 +275,14 @@
     <entry file="file://$PROJECT_DIR$/U1M1SummativeAssessmentHarineeMadhusudhan/src/main/java/MonthConverterSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/U1M1SummativeAssessmentHarineeMadhusudhan/src/main/java/ArrayFunReverseIt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -307,7 +302,7 @@
     <entry file="file://$PROJECT_DIR$/U1M1SummativeAssessmentHarineeMadhusudhan/src/main/java/SomeMath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
