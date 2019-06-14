@@ -4,6 +4,7 @@ public class ArrayFunReverseIt {
 
       public static void main(String[] args) {
             int[] anArray = new int[5];
+            int[] myArray = (1,2,3,4,5);
             int[] revArray = new int[5];
             Scanner myScanner = new Scanner(System.in);
             for (int i = 0; i < 5; i++) {
