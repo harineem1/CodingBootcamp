@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d94bcd6a-27da-43aa-9223-1490e36a96a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../20190529/APostcardFromMe/APostcardFromMe.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registrationform/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Registrationform/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registrationform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Registrationform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Registrationform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Registrationform/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +18,27 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuxuryTax/src/main/java/LuxuryTax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Registrationform/src/main/java/RegistrationForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-323">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,14 +79,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="RectangularPavingCompany" type="b2602c69:ProjectViewProjectNode" />
               <item name="20190530" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RectangularPavingCompany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20190530" type="462c0819:PsiDirectoryNode" />
+              <item name="01-rectangular-paving-company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RectangularPavingCompany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20190530" type="462c0819:PsiDirectoryNode" />
+              <item name="LuxuryTax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RectangularPavingCompany" type="b2602c69:ProjectViewProjectNode" />
@@ -85,11 +111,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RU-RCOG-E-CJS1-FT-05-2019-E-COG/RU-RCOG-E-CJS1-FT-05-2019-E-COG/01-unit/01-module/02-lesson/activities/katas/starter-code/U1M1L2Katas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -134,7 +162,7 @@
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1272" height="640" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25412542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25825083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -172,6 +200,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-rectangular-paving-company/src/main/java/RectangularPavingCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuxuryTax/src/main/java/LuxuryTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Registrationform/src/main/java/RegistrationForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
