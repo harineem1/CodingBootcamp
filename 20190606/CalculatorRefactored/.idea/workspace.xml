@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04342024-b9b9-45f0-86fd-4e269734080c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../01-module/05-lesson/activities/katas/starter-code/PracticeJune3rd/src/main/java/PracticeJune3rd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../01-module/05-lesson/activities/katas/starter-code/U1M1L5Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01-module/05-lesson/activities/katas/starter-code/U1M1L5Katas/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../01-module/05-lesson/activities/katas/starter-code/U1M1L5Katas/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01-module/05-lesson/activities/katas/starter-code/U1M1L5Katas/src/test/java/com/company/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../01-module/06-lesson/activities/katas/starter-code/U1M1L6Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01-module/06-lesson/activities/katas/starter-code/U1M1L6Katas/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../01-module/06-lesson/activities/katas/starter-code/U1M1L6Katas/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01-module/06-lesson/activities/katas/starter-code/U1M1L6Katas/src/test/java/com/company/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/U1M2L2Katas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/placeholder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/test/java/com/company/AllKatasTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CarTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CoffeeMakerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/test/java/com/company/ComputerMouseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/test/java/com/company/MicrowaveTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/test/java/com/company/RadioTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/test/java/com/company/TVTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/activities/katas/starter-code/UMLDiagrams.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02-lesson-classes-objects/lesson_plan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03-lesson-references-memory-management/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-lesson-references-memory-management/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03-lesson-references-memory-management/activities/katas/starter-code/U1M2L3Katas/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-lesson-references-memory-management/activities/katas/starter-code/U1M2L3Katas/src/test/java/com/company/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter-code/Calculator/src/main/java/com/company/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/Calculator/src/main/java/com/company/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190610/U1M2L6 Katas/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U1M2L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M2L2Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190610/ShapesPerimeters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190610/ShapesPerimeters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190610/U1M1SummativeAssessmentHarineeMadhusudhan/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190610/U1M1SummativeAssessmentHarineeMadhusudhan/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190610/U1M1SummativeAssessmentHarineeMadhusudhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190610/U1M1SummativeAssessmentHarineeMadhusudhan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190610/U1M2L6 Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190610/U1M2L6 Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190610/U1M2L7Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190610/U1M2L7Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190611/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190611/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/starter-code/Calculator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +22,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/starter-code/Calculator/src/main/java/com/company/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,8 +72,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,9 +155,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
@@ -241,7 +227,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25367048" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25774878" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />

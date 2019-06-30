@@ -35,7 +35,7 @@ public class CalculateObject {
         System.out.println(a + " * " + b + " = " + multiplyValue);
     }
 
-    public void divide(double a, double b) {
+    public   void divide(double a, double b) {
 
         String divideValue = String.format("%.2f", (a / b));
         System.out.println(a + " / " + b + " = " + divideValue);

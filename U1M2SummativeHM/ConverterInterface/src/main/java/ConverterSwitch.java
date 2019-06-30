@@ -3,12 +3,12 @@ public class ConverterSwitch implements Converter{
     public String converterMonth(int monthNumber) {
         switch (monthNumber) {
             case 1:
-                return "January";
+                return "january";
 
             case 2:
-                return "February";
+                return "february";
             case 3:
-                return "March";
+                return "march";
 
             case 4:
                 return "April";

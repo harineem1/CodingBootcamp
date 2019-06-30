@@ -5,5 +5,9 @@ public interface Converter {
 
         public String convertDay(int dayNumber);
 
+        public default void thirdM(){
+                System.out.println("lll");
+        };
+
 
 }

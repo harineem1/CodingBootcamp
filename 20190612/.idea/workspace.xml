@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8bdf2bf-1dfd-4a36-833f-dc7f07e5c61e" name="Default Changelist" comment="" />
+    <list default="true" id="f8bdf2bf-1dfd-4a36-833f-dc7f07e5c61e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../20190610/U1M2L6 Katas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190611/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190613/.idea/20190613.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190614/U1M2L1PBD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190614/U1M3L5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1M2SummativeHM/IceCreamDesign/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190606/CalculatorRefactored/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190606/CalculatorRefactored/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190606/CalculatorRefactored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190606/CalculatorRefactored/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190606/U1M2L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190606/U1M2L2Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190610/ShapesPerimeters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190610/ShapesPerimeters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190610/U1M1SummativeAssessmentHarineeMadhusudhan/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190610/U1M1SummativeAssessmentHarineeMadhusudhan/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190610/U1M1SummativeAssessmentHarineeMadhusudhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190610/U1M1SummativeAssessmentHarineeMadhusudhan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190610/U1M2L6 Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190610/U1M2L6 Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190610/U1M2L7Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190610/U1M2L7Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190611/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190611/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190614/U1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190614/U1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190614/U1M3L5/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190614/U1M3L5/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190614/U1M3L5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190614/U1M3L5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U1M2SummativeHM/IceCreamDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M2SummativeHM/IceCreamDesign/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Largest Cities/src/main/java/City.java">
           <provider selected="true" editor-type-id="text-editor" />
@@ -18,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Largest Cities/src/main/java/largestCities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="17">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -29,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="6" />
     <option name="y" value="30" />
     <option name="width" value="1923" />
@@ -41,6 +62,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -79,11 +101,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20190613" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RunDashboard">
@@ -112,7 +133,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="20" width="1282" height="640" extended-state="0" />
+    <frame x="4" y="20" width="1282" height="640" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -120,7 +141,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24959083" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2536825" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -148,8 +169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Largest Cities/src/main/java/largestCities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="17">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

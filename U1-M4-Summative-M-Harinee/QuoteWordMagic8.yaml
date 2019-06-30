@@ -1,0 +1,84 @@
+openapi: 3.0.0
+info:
+  title: QuoteWordMagic8 Service
+  description:
+    A simple service that allows random quotes and words as well as magic 8 service
+  version: 0.0.1
+servers:
+  - url: 'http://localhost:8080'
+    description: Local dev server
+paths:
+  /magic:
+    post:
+      summary: Answers a response to a question using a magic 8 ball
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Answer'
+      responses:
+        '201':
+          description: An Magic 8 ball Answer object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Answer'
+        '400':
+          description: Invalid request syntax.
+        '422':
+          description: Incomplete Question information. Some required fields missing.
+          
+  /quote{}:
+    # GET, DELETE, and PUT are all under this path entry
+    get:
+      summary: displays a random quote from an author.
+      responses:
+        '200':
+          description: A random quote information.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Quote'
+  /word{}:
+    # GET, DELETE, and PUT are all under this path entry
+    get:
+      summary: displays a random word with a definition.
+      responses:
+        '200':
+          description: A random Java word  information.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Definition'
+      
+
+components:
+  schemas:
+    Quote:
+      properties:
+        author:
+          type: string
+        quote:
+          type: string
+      required: 
+        - author
+        - quote
+    Answer:
+      properties:
+        question:
+          type: string
+        answer:
+          type: string
+      required: 
+        - question
+        - answer
+    Definition:
+      properties:
+        word:
+          type: string
+        definition:
+          type: string
+      required: 
+        - word
+        - definition
