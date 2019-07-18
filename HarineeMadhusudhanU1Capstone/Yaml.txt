@@ -1,0 +1,479 @@
+openapi: 3.0.0
+info:
+  title: Game Store Capstone Service
+  description: This web service is for Game Store  Capstone Service.
+  version: 0.0.1
+servers: 
+    - url: http://localhost:8080
+      description: Game Store
+paths:
+  /game:
+    post:
+      summary: Request for game data.
+      description: This service provides game data upon request.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Game'
+      responses:
+        '201':
+          description: A Customer object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Game'
+    get:
+      summary: Provides customer data for each request.
+      description: This service requests for customer data.
+      responses:
+        '200':
+          description: This service provides game data upon request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Game"
+  /game/{id}:
+    get:
+      summary: This is a simple service to get game data by id.
+      description: This is a simple service to get game data by id.
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description: Find game by id.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Game data.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Game"      
+    put:
+      summary: Updated the entry for the game with the given id.
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description:  Update game by id.
+          schema:
+            type: string
+            
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Game'
+      responses:
+        '200':
+          description: Game successfully updated.
+        
+    delete:
+      summary: Deletes the entry for the game with the given id
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description: Id of the game.
+          schema:
+            type: string
+            
+      responses:
+        '200':
+          description: Game successfully deleted.  
+  /game/studio/{studio}:
+    get:
+      summary: This is a simple service to get game data by studio.
+      description: This is a simple service to get game data by studio.
+      parameters: 
+        - name: studio
+          in: path
+          required: true
+          description: Find game by studio.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Game data.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Game"  
+  /game/esrbRating/{esrbRating}:
+    get:
+      summary: This is a simple service to get game data by esrbRating.
+      description: This is a  service to get game data by esrbRating.
+      parameters: 
+        - name: esrbRating
+          in: path
+          required: true
+          description: Find game by esrbRating.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Game data.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Game"   
+  /game/title/{title}:
+    get:
+      summary: This is a simple service to get game data by title.
+      description: This is a simple service to get game data by title.
+      parameters: 
+        - name: title
+          in: path
+          required: true
+          description: Find game by title.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Game data.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Game"                    
+          
+          
+  /console:
+    post:
+      summary: Request for console data.
+      description: This service request for console data.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Console'
+      responses:
+        '201':
+          description: An console object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Console'
+    get:
+      summary: Provides console data for each request.
+      description: This service provide console data upon request.
+      responses:
+        '200':
+          description: This service provide console data upon request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Console"
+  /console/{id}:
+    get:
+      summary: This is a simple service to get console by id.
+      description: This is a simple service to get console by id.
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description: console id to get the data.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: console.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Console"      
+    put:
+      summary: Updated the entry for the item with the given id.
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description:  Id of the item you would like to update.
+          schema:
+            type: string
+            
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Console'
+      responses:
+        '200':
+          description: console successfully updated.
+                  
+    delete:
+      summary: Deletes console by id.
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description: console id you would like to delete.
+          schema:
+            type: string
+            
+      responses:
+        '200':
+          description: console successfully deleted. 
+  /console/manufacturer/{manufacturer}:
+    get:
+      summary: This is a simple service to get console by manufaturer.
+      description: This is a simple service to get console by manufacturer.
+      parameters: 
+        - name: manufacturer
+          in: path
+          required: true
+          description: console by manufacturer to get the data.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: console.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Console"           
+  /tshirt:
+    post:
+      summary: Request for tshirt.
+      description: This service is for requesting the data.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TShirt'
+      responses:
+        '201':
+          description: tshirt
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TShirt'
+    get:
+      summary: Provides tshirt data for each request.
+      description: This service provide tshirt data upon request.
+      responses:
+        '200':
+          description: This service provide tshirt data upon request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TShirt"             
+  /tshirt/{id}:
+    get:
+      summary: This is a simple service to get tshirt by id. 
+      description: This is a simple service to get tshirt by id.
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description: The id for finding the tshirt
+          schema:
+            type: string
+      responses:
+        '200':
+          description: tshirt.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TShirt"  
+    put:
+      summary: Updated the entry for the tshirt with the given id.
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description:  Id of the tshirt you would like to update.
+          schema:
+            type: string
+            
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TShirt'
+      responses:
+        '200':
+          description: tshirt successfully updated.            
+    delete:
+      summary: This is a simple service to delete the tshirt by id.
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description: tshirt id you would like to delete.
+          schema:
+            type: string
+            
+      responses:
+        '200':
+          description: tshirt successfully deleted.  
+          
+  /tshirt/color/{color}:
+    get:
+      summary: This is a simple service to get tshirt data by color.
+      description: This is a service to get  data by color.
+      parameters: 
+        - name: color
+          in: path
+          required: true
+          description: Find tshirt by color.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: tshirt data.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TShirt"    
+  /tshirt/size/{size}:
+    get:
+      summary: This is a simple service to get tshirt data by size.
+      description: This is a service to get  data by size.
+      parameters: 
+        - name: size
+          in: path
+          required: true
+          description: Find tshirt by size.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: tshirt data.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TShirt"   
+  /invoice:
+    post:
+      summary: Request for invoice data.
+      description: This service request for invoice data.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+      responses:
+        '201':
+          description: An invoice object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+    get:
+      summary: Provides invoice data for each request.
+      description: This service provide invoice data upon request.
+      responses:
+        '200':
+          description: This service provide invoice data upon request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Invoice"              
+                
+          
+          
+components:
+  schemas:
+    Game:
+      properties:
+        gameId:
+          type: integer
+        title:
+          type: string
+        esrbRating:
+          type: string
+          enum: 
+          - "EC -Early Childhood"
+          - "E - Everyone"
+          - "E10+ - Everyone 10+"
+          - "T - Teen"
+          - "M - Mature"
+          - "AO - Adults only"
+        description:
+          type: string
+        price:
+          type: number
+        studio:
+          type: string
+        quantity:
+          type: integer  
+    Console:
+      properties:
+        consoleId:
+          type: integer
+        model:
+          type: string
+        manufacturer:
+          type: string
+        memoryAmount:
+          type: integer
+        processor:
+          type: string
+        price:
+          type: string
+        quantity:
+          type: integer 
+    TShirt:
+      properties:
+        size: 
+          type: string
+        color:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+        quantity:
+          type: integer
+    SalesTaxRate:
+      properties:
+        state:
+          type: string
+        rate:
+          type: number
+    ProcessingFee:
+      properties:
+        productType:
+          type: string
+        fee:
+          type: number
+    Invoice:
+      properties:
+        invoiceId:
+          type: integer
+        name:
+          type: string
+        street:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        zipcode:
+          type: string
+        itemType: 
+          type: string
+        itemId:
+          type: integer
+        unitPrice:
+          type: number
+        quantity:
+          type: integer
+        subTotal:
+          type: number
+        tax:
+          type: number
+        processingFee:
+          type: number
+        total:
+          type: number
+    
