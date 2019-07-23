@@ -1,36 +1,28 @@
-package com.company.HarineeMadhusudhanU1Capstone.viewmodel;
+package com.company.HarineeMadhusudhanU1Capstone.dto;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Positive;
-import javax.validation.constraints.PositiveOrZero;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class TShirtViewModel {
+public class TShirt {
 
     private int tShirtId;
-    @NotEmpty(message = "Please supply a value for size")
     private String size;
-    @NotEmpty(message = "Please supply a value for color")
     private String color;
-    @NotEmpty(message = "Please supply a value for description")
     private String description;
-    @PositiveOrZero(message = "Please supply a positive or zero value for price")
     private BigDecimal price;
-    @Positive(message = "Please supply a positive value for quantity")
     private int quantity;
 
-    public TShirtViewModel(int tShirtId, @NotEmpty(message = "Please supply a value for size") String size,
-                           @NotEmpty(message = "Please supply a value for color") String color,
-                           @NotEmpty(message = "Please supply a value for description") String description,
-                           @PositiveOrZero(message = "Please supply a positive or zero value for price")BigDecimal price,
-                           @Positive(message = "Please supply a positive value for quantity") int quantity) {
+
+    public TShirt(int tShirtId, String size, String color, String description, BigDecimal price, int quantity) {
         this.tShirtId = tShirtId;
         this.size = size;
         this.color = color;
         this.description = description;
         this.price = price;
         this.quantity = quantity;
+    }
+
+    public TShirt() {
     }
 
     public int gettShirtId() {
@@ -81,20 +73,17 @@ public class TShirtViewModel {
         this.quantity = quantity;
     }
 
-    public TShirtViewModel() {
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        TShirtViewModel that = (TShirtViewModel) o;
-        return tShirtId == that.tShirtId &&
-                quantity == that.quantity &&
-                size.equals(that.size) &&
-                color.equals(that.color) &&
-                description.equals(that.description) &&
-                price.equals(that.price);
+        TShirt tShirt = (TShirt) o;
+        return tShirtId == tShirt.tShirtId &&
+                quantity == tShirt.quantity &&
+                size.equals(tShirt.size) &&
+                color.equals(tShirt.color) &&
+                description.equals(tShirt.description) &&
+                price.equals(tShirt.price);
     }
 
     @Override

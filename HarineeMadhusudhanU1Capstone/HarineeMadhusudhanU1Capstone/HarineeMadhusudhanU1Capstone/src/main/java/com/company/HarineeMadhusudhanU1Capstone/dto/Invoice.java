@@ -1,10 +1,9 @@
-package com.company.HarineeMadhusudhanU1Capstone.viewmodel;
+package com.company.HarineeMadhusudhanU1Capstone.dto;
 
-import javax.validation.constraints.NotEmpty;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class InvoiceViewModel {
+public class Invoice {
 
     private int invoiceId;
     private String name;
@@ -21,9 +20,13 @@ public class InvoiceViewModel {
     private BigDecimal processingFee;
     private BigDecimal total;
 
-    public InvoiceViewModel(int invoiceId, String name, String street, String city, String state, String zipCode,
-                            String itemType, int itemId, BigDecimal unitPrice, int quantity,
-                            BigDecimal subTotal, BigDecimal tax, BigDecimal processingFee, BigDecimal total) {
+    public Invoice() {
+    }
+
+
+    public Invoice(int invoiceId, String name, String street, String city, String state,
+                   String zipCode, String itemType, int itemId, BigDecimal unitPrice, int quantity,
+                      BigDecimal subTotal, BigDecimal processingFee, BigDecimal total) {
         this.invoiceId = invoiceId;
         this.name = name;
         this.street = street;
@@ -35,7 +38,6 @@ public class InvoiceViewModel {
         this.unitPrice = unitPrice;
         this.quantity = quantity;
         this.subTotal = subTotal;
-        this.tax = tax;
         this.processingFee = processingFee;
         this.total = total;
     }
@@ -152,28 +154,25 @@ public class InvoiceViewModel {
         this.total = total;
     }
 
-    public InvoiceViewModel() {
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        InvoiceViewModel that = (InvoiceViewModel) o;
-        return invoiceId == that.invoiceId &&
-                itemId == that.itemId &&
-                quantity == that.quantity &&
-                name.equals(that.name) &&
-                street.equals(that.street) &&
-                city.equals(that.city) &&
-                state.equals(that.state) &&
-                zipCode.equals(that.zipCode) &&
-                itemType.equals(that.itemType) &&
-                unitPrice.equals(that.unitPrice) &&
-                subTotal.equals(that.subTotal) &&
-                tax.equals(that.tax) &&
-                processingFee.equals(that.processingFee) &&
-                total.equals(that.total);
+        Invoice invoice = (Invoice) o;
+        return invoiceId == invoice.invoiceId &&
+                itemId == invoice.itemId &&
+                quantity == invoice.quantity &&
+                name.equals(invoice.name) &&
+                street.equals(invoice.street) &&
+                city.equals(invoice.city) &&
+                state.equals(invoice.state) &&
+                zipCode.equals(invoice.zipCode) &&
+                itemType.equals(invoice.itemType) &&
+                unitPrice.equals(invoice.unitPrice) &&
+                subTotal.equals(invoice.subTotal) &&
+                tax.equals(invoice.tax) &&
+                Objects.equals(processingFee, invoice.processingFee) &&
+                Objects.equals(total, invoice.total);
     }
 
     @Override
