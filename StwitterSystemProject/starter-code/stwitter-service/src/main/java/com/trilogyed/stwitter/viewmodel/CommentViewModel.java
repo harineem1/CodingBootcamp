@@ -57,4 +57,13 @@ public class CommentViewModel {
     public int hashCode() {
         return Objects.hash(getCommenterName(), getCreateDate(), getComment());
     }
+
+    @Override
+    public String toString() {
+        return "CommentViewModel{" +
+                "commenterName='" + commenterName + '\'' +
+                ", createDate=" + createDate +
+                ", comment='" + comment + '\'' +
+                '}';
+    }
 }

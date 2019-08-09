@@ -1,13 +1,19 @@
 package com.trilogyed.stwitter.util.message;
-
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class Comment {
 
+
     private int commentId;
     private int postId;
+    @JsonDeserialize(using = LocalDateDeserializer.class)
+    @JsonSerialize(using = LocalDateSerializer.class)
     private LocalDate createDate;
     private String commenterName;
     private String comment;
@@ -73,5 +79,14 @@ public class Comment {
         return Objects.hash(getCommentId(), getPostId(), getCreateDate(), getCommenterName(), comment);
     }
 
-
+    @Override
+    public String toString() {
+        return "Comment{" +
+                "commentId=" + commentId +
+                ", postId=" + postId +
+                ", createDate=" + createDate +
+                ", commenterName='" + commenterName + '\'' +
+                ", comment='" + comment + '\'' +
+                '}';
+    }
 }

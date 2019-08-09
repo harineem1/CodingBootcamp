@@ -25,7 +25,7 @@ public class PostViewModel {
     @NotEmpty(message = "Please supply a value for model")
     private String posterName;
     @NotEmpty(message = "Please supply a value for model")
-    private List<Comment> comments;
+    //private List<Comment> comments;
 
     public PostViewModel() {
     }
@@ -62,31 +62,47 @@ public class PostViewModel {
         this.posterName = posterName;
     }
 
-    public List<Comment> getComments() {
-        return comments;
-    }
-
-    public void setComments(List<Comment> comments) {
-        this.comments = comments;
-    }
     public void addComments(CommentViewModel commentViewModel) {
         commentViewModelList.add(commentViewModel);
     }
+    public void removeComments(CommentViewModel commentViewModel)
+    {
+        commentViewModelList.remove(commentViewModel);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PostViewModel that = (PostViewModel) o;
         return getPostId() == that.getPostId() &&
-                Objects.equals(post, that.post) &&
+                Objects.equals(commentViewModelList, that.commentViewModelList) &&
+                Objects.equals(getPost(), that.getPost()) &&
                 Objects.equals(getPostDate(), that.getPostDate()) &&
-                Objects.equals(getPosterName(), that.getPosterName()
-           //     && Objects.equals(getComments(), that.getComments()
-        );
+                Objects.equals(getPosterName(), that.getPosterName());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getPostId(), post, getPostDate(), getPosterName(), getComments());
+        return Objects.hash(commentViewModelList, getPostId(), getPost(), getPostDate(), getPosterName());
+    }
+
+    public List<CommentViewModel> getCommentViewModelList() {
+        return commentViewModelList;
+    }
+
+    public void setCommentViewModelList(List<CommentViewModel> commentViewModelList) {
+        this.commentViewModelList = commentViewModelList;
+    }
+
+    @Override
+    public String toString() {
+        return "PostViewModel{" +
+                "commentViewModelList=" + commentViewModelList +
+                ", postId=" + postId +
+                ", post='" + post + '\'' +
+                ", postDate=" + postDate +
+                ", posterName='" + posterName + '\'' +
+                '}';
     }
 }

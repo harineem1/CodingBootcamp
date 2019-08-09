@@ -9,11 +9,12 @@ import com.trilogyed.stwitter.viewmodel.PostViewModel;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.springframework.amqp.core.Binding.DestinationType.EXCHANGE;
+//import static org.springframework.amqp.core.Binding.DestinationType.EXCHANGE;
 
 @Component
 public class ServiceLayer {
@@ -25,6 +26,8 @@ public class ServiceLayer {
     @Autowired
     RabbitTemplate rabbitTemplate;
 
+    public static final String EXCHANGE = "comment-exchange";
+    public static final String ROUTING_KEY_FOR_LIST_OF_OBJECTS = "comment.create.list.obj";
 
     public ServiceLayer() {
     }
@@ -39,6 +42,7 @@ public class ServiceLayer {
         this.postClient = postClient;
     }
 
+    @Transactional
     public PostViewModel savePost(PostViewModel postViewModel) {
         Post post = new Post();
         post.setPostDate(postViewModel.getPostDate());
@@ -50,9 +54,8 @@ public class ServiceLayer {
 
         List<Comment> commentList = new ArrayList<>();
         List<CommentViewModel> cList = new ArrayList<>();
-        System.out.println(postViewModel.getComments());
         try {
-            postViewModel.getComments().stream().
+            postViewModel.getCommentViewModelList().stream().
                     forEach(c ->
                     {
                         Comment comment = new Comment();
@@ -71,7 +74,7 @@ public class ServiceLayer {
         }
         catch (NullPointerException e)
         {
-            postViewModel.setComments(commentList);
+            postViewModel.setCommentViewModelList(cList);
             return postViewModel;
         }
 
@@ -146,16 +149,16 @@ public class ServiceLayer {
         pvm.setPost(post.getPost());
 
         List<Comment> commentList = commentClient.getCommentsByPostId(post.getPostId());
-        List<CommentViewModel> cvmList = new ArrayList<>();
+        List<CommentViewModel> cList = new ArrayList<>();
         for (Comment comment : commentList)
         {
             CommentViewModel cvm = new CommentViewModel();
             cvm.setCreateDate(comment.getCreateDate());
             cvm.setCommenterName(comment.getCommenterName());
             cvm.setComment(comment.getComment());
-            cvmList.add(cvm);
+            cList.add(cvm);
         }
-        pvm.setComments(commentList);
+        pvm.setCommentViewModelList(cList);
 
         return pvm;
     }

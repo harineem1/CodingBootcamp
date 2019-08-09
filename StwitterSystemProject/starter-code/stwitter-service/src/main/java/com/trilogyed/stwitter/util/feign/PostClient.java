@@ -1,8 +1,8 @@
 package com.trilogyed.stwitter.util.feign;
 
 import com.trilogyed.stwitter.util.message.Post;
-import org.springframework.cloud.netflix.feign.FeignClient;
-//import org.springframework.cloud.openfeign.FeignClient;
+//import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

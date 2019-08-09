@@ -3,10 +3,13 @@ package com.trilogyed.comment.model;
 import java.time.LocalDate;
 import java.util.Objects;
 
+
+
 public class Comment {
 
     private int commentId;
     private int postId;
+
     private LocalDate createDate;
     private String commenterName;
     private String comment;
